@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .navdiv{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(202, 194, 194);
+   
+  }
+  .logo{
+    height: 70px;
+    width: 200px;
+  
+  }
+  /*  */
+  .divm12 {
+    background-color: bisque;
+  }
+  .divmainf{
+    padding-top: 30px;
+  }
+  .divmain1 {
+  background-color: black;
+    height: 100%;
+    color: white;
+  }
+  
+  .images1 {
+    height: 500PX;
+    width: 100%;
+  }
+  
+  /* #img1{
+    position: relative;
+  }
+  .text1{
+    position: absolute;
+  } */
+  .f1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .f2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .primg1{
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+  }
+  
+  .fd1,
+  .fd2,
+  .fd3,
+  .fd4 {
+    width: 40%;
+    background-color: white;
+    border-radius: 20px;
+  }
+  
+  .rec {
+    height: 300px;
+    width: 100%;
+  }
+  
+  .frimg1 {
+    height: 360px;
+    border-radius: 20px;
+    width: 100%;
+  }
+  
+  .flex1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flex11,
+  .flex12,
+  .flex13 {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    border: 2px solid gray;
+    box-shadow: 2px 2px 2px rgb(28, 22, 22);
+  }
+  
+  .fit {
+    height: 300px;
+    background-color: rgb(14, 149, 104);
+    border-radius: 20px;
+  }
+  
+  .contact1 {
+    width: 100%;
+    color: white;
+  }
+  
+  .textc1 {
+    text-align: center;
+    color: white;
+  }
+  
+  .form1,
+  .form2,
+  .form3,
+  .form4 {
+    height: 40px;
+    width: 350px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-top: 5px;
+  }
+  
+  .form2,
+  .form4 {
+    margin-left: 5px;
+  }
+  
+  .msg {
+    width: 72.5%;
+    height: 100px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-top: 5px;
+  }
+  
+  .btn1 {
+    text-align: center;
+    width: 100px;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid blue;
+    margin-left: 30%;
+  }
+  
+  .cd {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(10, 72, 41);
+    border-radius: 20px;
+    margin-top: -100px;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .rr11 {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+  }
+  
+  .grid1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+  
+  .textc1,
+  .textc2 {
+    color:white;
+    font-weight: bold;
+  }
+  
+  .textc12 {
+    text-align: center;
+  }
+  
+  .cdtext1 {
+    margin-left: 50px;
+  }
+  
+  .fitflex {
+    display: flex;
+    color: white;
+  }
+  
+  .fittext1 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    justify-content: space-evenly;
+  }
+  
+  .fitf1,
+  .fitf2,
+  .fitf3 {
+    width: 33.3%;
+  }
+  
+  .imgc1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+  .textc11 {
+    color: rgb(10, 72, 41);
+    text-align: center;
+  }
+  
+  .flex11:hover {
+    background-color: rgb(128, 128, 241);
+    color: white;
+  }
+  
+  .flex12:hover {
+    background-color: rgb(128, 128, 241);
+    color: white;
+  }
+  
+  .flex13:hover {
+    background-color: rgb(128, 128, 241);
+    color: white;
+  }
+  .btn1:hover{
+    background-color: rgb(3, 35, 3);
+    border: solid green;
+  
+  }
+  
+  @media(max-width:450px) {
+    .msg {
+        width: 100%;
+        height: 100px;
+    }
+  
+    .form2,
+    .form4 {
+        margin-left: 0;
+    }
+  
+    .btn1 {
+        margin-left: 35%;
+    }
+  
+    .grid1 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  
+    .cd {
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+  
+    .flex11,
+    .flex12,
+    .flex13 {
+        width: 100%;
+    }
+  
+    .flex1 {
+        flex-direction: column;
+        justify-content: center;
+    }
+  
+    .fitflex {
+        flex-direction: column;
+    }
+  
+    .fitf1,
+    .fitf2,
+    .fitf3 {
+        width: 100%;
+    }
+  
+    .frimg1 {
+        height: 250px;
+    }
+  
+    .f1,
+    .f2 {
+        flex-direction: column;
+    }
+  
+    .fd1,
+    .fd2,
+    .fd3,
+    .fd4 {
+        width: 100%;
+        background-color: white;
+        border-radius: 20px;
+    }
+    .fit{
+        height: 450px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+  }

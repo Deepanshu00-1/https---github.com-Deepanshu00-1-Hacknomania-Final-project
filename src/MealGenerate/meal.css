@@ -1,0 +1,148 @@
+.meal-card{
+    height: 55vh;
+    width: 25vw;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    /* background-image: url('../../src/assets/meals/meal1.jpg'); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 2vh;
+    flex-direction: column;
+}
+.meal-card h2{
+    font-size: 2vh;
+    background-color: aliceblue;
+    height: 6vh;
+    width: 20vw;
+    margin-top: 5vh;
+    margin-left: 2.5vw;
+    border-radius: 2vh;
+    background: hsl(0, 0%, 51%);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.meal-card h2:hover{
+    cursor:pointer;
+}
+.meal-card .detail{
+    height: 40vh;
+    width: 20vw;
+    background-color: antiquewhite;
+    /* margin-top: 5vh; */
+    margin-left: 2.5vw;
+    border-radius: 2vh;
+    background: hsl(0, 0%, 73%);
+    backdrop-filter: blur(5px);
+    background: transparent;
+    color: white;
+    animation-name: cardDetailVisible;
+    animation-duration: 1s;
+    /* animation-delay: 1s; */
+    overflow-y: none;
+    display: grid;
+    grid-column: 2;
+    transition: 2s ease;
+}
+
+
+@keyframes cardDetailVisible {
+    from{
+        margin-top: 60vh;
+
+    }
+    to{
+        margin-top: 0;
+    }
+}
+
+button{
+    height: 4vh;
+    width: 6vw;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 1vh;
+    margin-top: 17vh;
+    margin-left: 6.5vw;
+}
+button:hover{
+    color: cyan;
+    cursor: pointer;
+    background:transparent;
+    border: 2px solid white;
+}
+@media screen and (max-width:500px) {
+    .meal-card{
+        height: 55vh;
+        width: 60vw;
+        background-color: bisque;
+        display: flex;
+        flex-direction: column;
+        /* background-image: url('../../src/assets/meals/meal1.jpg'); */
+        background-size: cover;
+        background-position: center;
+        border-radius: 2vh;
+        flex-direction: column;
+        margin-top: 10vh;
+    }
+    .meal-card h2{
+        background-color: aliceblue;
+        height: 6vh;
+        width: 50vw;
+        font-size: 1.5vh;
+        margin-top: 5vh;
+        margin-left: 5vw;
+        border-radius: 2vh;
+        background: hsl(0, 0%, 51%);
+        backdrop-filter: blur(5px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .meal-card .detail{
+        height: 40vh;
+        width: 40vw;
+        background-color: antiquewhite;
+        /* margin-top: 5vh; */
+        margin-left: 10vw;
+        border-radius: 2vh;
+        background: hsl(0, 0%, 73%);
+        backdrop-filter: blur(5px);
+        background: transparent;
+        color: white;
+        animation-name: cardDetailVisible;
+        animation-duration: 1s;
+        overflow-y: none;
+        display: grid;
+        grid-column: 2
+    }
+    
+    
+    
+    @keyframes cardDetailVisible {
+        from{
+            margin-top: 60vh;
+    
+        }
+        to{
+            margin-top: 0;
+        }
+    }
+    
+    button{
+        height: 4vh;
+        width: 17vw;
+        background-color: aliceblue;
+        border: 1px solid black;
+        border-radius: 1vh;
+        margin-top: 10vh;
+        margin-left: 12vw;
+    }
+    button:hover{
+        cursor: pointer;
+        background:transparent;
+        border: 2px solid white;
+    }
+}
