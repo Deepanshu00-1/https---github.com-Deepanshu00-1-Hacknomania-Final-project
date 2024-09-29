@@ -25,7 +25,12 @@ export default function Navbar1() {
               Meals
               </NavLink>
               </h2>
-              <button><a href="https://cunning-panda-qe508k-dev-ed.trailblaze.my.site.com/profile6/s/">Join us</a></button>
+              <button>
+                <NavLink to="/login" activeclassname="active">
+                  Join us
+                </NavLink>
+              </button>
+              {/* <a href="https://cunning-panda-qe508k-dev-ed.trailblaze.my.site.com/profile6/s/"></a> */}
             </div>
         </nav>
     </div>

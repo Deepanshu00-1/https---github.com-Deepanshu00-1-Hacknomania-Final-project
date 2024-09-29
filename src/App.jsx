@@ -8,6 +8,7 @@ import { Routes, Route } from "react-router-dom";
 import MealSection from "./MealSection";
 import Home from "./Components/Home";
 import SurveyForm from "./SurveyForm";
+import Login from "./Login";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/mealSection" element={<MealSection />} />
         <Route path="/healthSurvey" element={<SurveyForm />} /> 
+        <Route path="/login" element={<Login />} />
         
       </Routes> 
     </div>
